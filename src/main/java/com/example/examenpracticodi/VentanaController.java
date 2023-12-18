@@ -130,10 +130,6 @@ public class VentanaController {
     @FXML
     public void add(ActionEvent actionEvent) {
 
-        /*txtMatricula.setText("");
-        cbModelo.setValue("");
-        cbCliente.setValue("");*/
-
         String ma = txtMatricula.getText();
         String mo = cbModelo.getValue();
         String cli = cbCliente.getValue();
